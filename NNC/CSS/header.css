@@ -1,0 +1,42 @@
+.header_top {
+  background-color: #fff;
+  color: white;
+  padding: 25px 0;
+  position: relative;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Navegação */
+.navegacao {
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navegacao ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navegacao li {
+  display: inline-block;
+  margin: 0 15px;
+}

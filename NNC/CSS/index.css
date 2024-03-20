@@ -1,0 +1,398 @@
+@import url(header.css);
+@import url(noticia.css);
+@import url(footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,800;0,900;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    
+}
+
+h1{
+    padding: 10px;
+    margin: 50px;
+}
+
+/***********************************************************/
+
+/* INICIO - Noticia Road Redline */
+.noticia-road-redline{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+    transition: 0.5s; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    }
+
+
+
+.container-road{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.imagem-noticia-road{
+    
+    margin: 50px;
+    width: 1060px;
+    height: 700px;
+    flex-shrink: 0;
+
+    border-radius: 20px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.texto-noticia-road, .h2 {
+    display: flex;
+    width: 690px;
+    height: 700px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+/* FIM - Noticia Road Redline */
+
+/***********************************************************/
+
+/* INICIO - Noticia Flo's V8 Café */
+.noticia-flos-v8-cafe{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+    transition: 0.5s; 
+    cursor: pointer; 
+    border-radius: 5px; 
+
+}
+
+.container-flos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.imagem-noticia-flo{
+    
+    margin: 50px;
+    width: 320px;
+    height: 320px;
+    flex-shrink: 0;
+
+    border-radius: 20px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.texto-noticia-flo, .h2 {
+    display: flex;
+    width: 700px;
+    height: 370px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+/* FIM - Noticia Flo's V8 Café */
+
+
+/* INICIO - Noticia Oficina Mater */
+.noticia-oficina-mater{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+    transition: 0.5s; 
+    cursor: pointer; 
+    border-radius: 5px; 
+
+}
+
+.container-mater{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.imagem-noticia-mater{
+    
+    margin: 50px;
+    width: 320px;
+    height: 320px;
+    flex-shrink: 0;
+
+    border-radius: 20px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.texto-noticia-mater, .h2 {
+    display: flex;
+    width: 700px;
+    height: 370px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+/* FIM - Noticia Oficina Mater*/
+
+/***********************************************************/
+
+/*INICIO  -  Noticia Filho do  Mater*/
+.noticia-mater-jr{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+    transition: 0.5s; 
+    cursor: pointer; 
+    border-radius: 5px; 
+
+}
+
+.container-jr{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.imagem-mater-jr{
+    
+    margin: 50px;
+    width: 1060px;
+    height: 700px;
+    flex-shrink: 0;
+
+    border-radius: 20px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.texto-noticia-jr, .h2 {
+    display: flex;
+    width: 690px;
+    height: 700px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+/* FIM - Noticia Filho do Mater */
+
+/***********************************************************/
+
+/* INICIO - Noticia Guido Mundial */
+.noticia-guido-mundial{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+    transition: 0.5s; 
+    cursor: pointer; 
+    border-radius: 5px; 
+
+}
+
+.container-guido{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.imagem-noticia-guido{
+    
+    margin: 50px;
+    width: 320px;
+    height: 320px;
+    flex-shrink: 0;
+
+    border-radius: 20px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.texto-noticia-guido, .h2 {
+    display: flex;
+    width: 700px;
+    height: 370px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+/* FIM - Noticia Guido Mundial */
+
+/* INICIO - Noticia Luigi Guido */
+.noticia-luigi-guido{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+    transition: 0.5s; 
+    cursor: pointer; 
+    border-radius: 5px; 
+
+}
+
+.container-luigi-guido{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.imagem-noticia-luigi-guido{
+    
+    margin: 50px;
+    width: 320px;
+    height: 320px;
+    flex-shrink: 0;
+
+    border-radius: 20px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.texto-noticia-luigi-guido, .h2 {
+    display: flex;
+    width: 700px;
+    height: 370px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+/* FIM - Noticia Luigi Guido  */
+
+/***********************************************************/
+
+
+/* INICIO - Noticia Parque Temático */
+.noticia-parque-tematico{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+    transition: 0.5s; 
+    cursor: pointer; 
+    border-radius: 5px; 
+
+}
+
+.container-parque{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.imagem-noticia-parque{
+    
+    margin: 50px;
+    width: 320px;
+    height: 320px;
+    flex-shrink: 0;
+
+    border-radius: 20px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.texto-noticia-parque, .h2 {
+    display: flex;
+    width: 700px;
+    height: 370px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+/* FIM - Noticia Parque Temático */
+
+/* INICIO - Filme - Aventuras Radicais */
+.noticia-filme-ar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.container-ar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.imagem-noticia-ar{
+    
+    margin: 50px;
+    width: 320px;
+    height: 320px;
+    flex-shrink: 0;
+
+    border-radius: 20px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.texto-noticia-ar, .h2 {
+    display: flex;
+    width: 700px;
+    height: 370px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+/* SIM - Filme - Aventuras Radicais */
